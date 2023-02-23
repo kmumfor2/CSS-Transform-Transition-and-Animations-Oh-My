@@ -3,6 +3,7 @@
 body  {
   font-family: 'Josefin Sans', sans-serif;
   text-align: center;
+  color: black;
 }
 
 .caption {
@@ -16,12 +17,16 @@ img {
 }
 
 button {
+  background-color: ghostwhite;
   padding: 1em;
   margin: .2em;
   font-family: 'Josefin Sans', sans-serif;
   font-size: 1.5em;
+  color:black;
 }
 
 button:hover {
   background-color: cornflowerblue;
+  color:white;
+  transition-timing-function:cubic-bezier(0,0,2,2);
 }
